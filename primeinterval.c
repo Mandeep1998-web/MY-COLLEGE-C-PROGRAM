@@ -11,6 +11,7 @@ for (i=lb+1;i<=ub;i++)
   {
    if(i%j==0)
    break;
+//
   }
 if(j==i)
 printf(" %d",i);
