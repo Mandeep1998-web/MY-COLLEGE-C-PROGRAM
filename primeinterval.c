@@ -8,7 +8,7 @@ scanf("%d%d",&lb,&ub);
 for (i=lb+1;i<=ub;i++)
 {
   for(j=2;j<i;j++)
-  {
+
    if(i%j==0)
    break;
 //
