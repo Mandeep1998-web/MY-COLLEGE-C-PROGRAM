@@ -1,0 +1,8 @@
+#--> Wild pointer = is uninitialized pointer
+#--> Dangling pointer = have the invalid address of free memory.
+int *p;
+*p=7;
+#--> Null pointer = int *p=NULL(capital letters) so NULL value is declare in macro and that is 0 so
+if we assign it NULL that means we consider it as it points no location.
+#-->Void Pointer = void pointer does have a void type , means if i write int *p; so it can allow the int type value so if i have void *p that means
+it is a generic pointer which can point to any type of value and when we have to access it we do typecasting that *(float)*p=4;
