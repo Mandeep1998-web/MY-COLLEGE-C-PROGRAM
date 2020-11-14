@@ -1,0 +1,6 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    if(printf("my name is mandeep singh")&& getch()){}
+}
