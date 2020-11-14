@@ -1,8 +1,15 @@
 #--> Wild pointer = is uninitialized pointer
+
 #--> Dangling pointer = have the invalid address of free memory.
 int *p;
 *p=7;
+
 #--> Null pointer = int *p=NULL(capital letters) so NULL value is declare in macro and that is 0 so
 if we assign it NULL that means we consider it as it points no location.
+
 #-->Void Pointer = void pointer does have a void type , means if i write int *p; so it can allow the int type value so if i have void *p that means
 it is a generic pointer which can point to any type of value and when we have to access it we do typecasting that *(float)*p=4;
+-----------------------------------
+Explain the following declaration
+void*(*p)(int *);---> p is a function pointer because here we have open brackets around it ( so if we have open brackets then it means it is pointer to array or function pointer 
+but in pointer to array we have also a sqaure brackets after it. and after that return type of function should be void* and arguments in the function is int *.
