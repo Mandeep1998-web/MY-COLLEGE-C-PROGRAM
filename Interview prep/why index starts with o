@@ -1,0 +1,3 @@
+ because a[0]=*(a+0)
+ a[1]=*(a+1) so if base address is 2000 then if i say a[1] then it points to 2004 because pointer dereference the next block not byte .
+ and subscript here only used to merge the name with index ( so a[1]=1[a]).
